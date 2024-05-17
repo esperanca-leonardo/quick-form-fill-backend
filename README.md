@@ -15,3 +15,10 @@ Quick Form Fill Backend is a simple API developed using Spring Boot, designed to
 ## 📝 Technical Details
 - 🛠️ **Technology:** Built with Spring Boot, taking advantage of its features for quick and efficient development.
 - 🌐 **Architecture:** REST API, ensuring straightforward handling of HTTP requests and responses.
+
+## 🛠️ Prerequisites
+- Ensure Java 17 or higher is installed
+  
+  ```bash
+  java --version
+  ```
