@@ -15,6 +15,9 @@ Quick Form Fill Backend is a simple API developed using Spring Boot, designed to
 - [Usage Examples](#-usage-examples)
   - [Create a Product](#-create-a-product)
   - [Retrieve a Product by ID](#-retrieve-a-product-by-id)
+  - [Retrieve All Products](#-retrieve-all-products)
+  - [Update a Product](#%EF%B8%8F-update-a-product)
+  - [Delete a Product](#%EF%B8%8F-delete-a-product)
 
 ## 🚀 Key Features
 - 🆕 **Create Products:** Add new products with information such as name, price, and description.
