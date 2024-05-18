@@ -124,6 +124,22 @@ Below are examples of how to use the Quick Form Fill Backend API endpoints in di
       "detail": "Product not found with ID: 2"
     }
     ```
+- ### 📄 Retrieve All Products
+  - To retrieve a list of all products, send a `GET` request to the `/products` endpoint.
+  If the request is successful, the API will respond with a status code `200 OK` and an array of product details in the response body. For example
 
-
+    ```json
+    [
+      {
+        "id": 1,
+        "name": "Wireless Mouse",
+        "description": "A high-precision wireless mouse",
+        "category": "Electronics",
+        "price": 29.99,
+        "amount": 150,
+        "supplier": "TechSupplier Co.",
+        "brand": "TechBrand"
+      }
+    ]
+    ```
       
