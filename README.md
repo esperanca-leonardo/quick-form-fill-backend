@@ -135,7 +135,7 @@ Below are examples of how to use the Quick Form Fill Backend API endpoints in di
     {
       "status": 404,
       "timestamp": "2024-05-17T23:00:03-03:00",
-      "type": "https://hopefood.com.br/product-not-found",
+      "type": "https://quickformfill.com.br/product-not-found",
       "title": "Product not found",
       "detail": "Product not found with ID: 2"
     }
@@ -194,7 +194,7 @@ Below are examples of how to use the Quick Form Fill Backend API endpoints in di
     {
       "status": 404,
       "timestamp": "2024-05-17T23:00:03-03:00",
-      "type": "https://hopefood.com.br/product-not-found",
+      "type": "https://quickformfill.com.br/product-not-found",
       "title": "Product not found",
       "detail": "Product not found with ID: 2"
     }
@@ -209,7 +209,7 @@ Below are examples of how to use the Quick Form Fill Backend API endpoints in di
     {
       "status": 404,
       "timestamp": "2024-05-17T23:00:03-03:00",
-      "type": "https://hopefood.com.br/product-not-found",
+      "type": "https://quickformfill.com.br/product-not-found",
       "title": "Product not found",
       "detail": "Product not found with ID: 2"
     }
