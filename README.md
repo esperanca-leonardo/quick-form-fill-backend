@@ -22,3 +22,35 @@ Quick Form Fill Backend is a simple API developed using Spring Boot, designed to
   ```bash
   java --version
   ```
+## ▶️ Running the Application
+### 1. Clone the Repository
+```bash
+git clone https://github.com/esperanca-leonardo/quick-form-fill-backend.git
+```
+
+### 2. Navigate to the Project Directory
+```bash
+cd quick-form-fill-backend
+```
+
+### 3. Run the Application
+Depending on your operating system, follow the commands below to start the application.
+
+- #### For Windows
+  
+  ```bash
+  .\mvnw.cmd spring-boot:run
+  ```
+
+- #### For Linux and macOS
+  First, give execute permission to the script
+
+  ```bash
+  chmod u+x mvnw
+  ```
+  
+  Then, run the command to start the application
+
+  ```bash
+  ./mvnw spring-boot:run
+  ```
