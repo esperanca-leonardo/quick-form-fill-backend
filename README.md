@@ -142,4 +142,45 @@ Below are examples of how to use the Quick Form Fill Backend API endpoints in di
       }
     ]
     ```
-      
+- ### ✏️ Update a Product
+  - To update an existing product, send a PUT request to the `/products/{id}` endpoint with the updated product details in the request body. Replace `{id}` with the actual product ID. The request body should be in JSON format as shown below. 
+  
+    ```json
+    {
+      "name": "Ergonomic Wireless Mouse",
+      "description": "An ergonomic wireless mouse with additional buttons",
+      "category": "Electronics",
+      "price": 39.99,
+      "amount": 200,
+      "supplier": "TechSupplier Co.",
+      "brand": "TechBrand"
+    }
+    ```
+    
+  - If the product with the specified ID exists and is successfully updated, the API will respond with a status code `200 OK` and the updated details of the product in the response body
+
+      ```json
+      {
+        "id": 1,
+        "name": "Ergonomic Wireless Mouse",
+        "description": "An ergonomic wireless mouse with additional buttons",
+        "category": "Electronics",
+        "price": 39.99,
+        "amount": 200,
+        "supplier": "TechSupplier Co.",
+        "brand": "TechBrand"
+      }
+    ```
+
+  - If the product with the specified ID, in this case `2`, is not found, the API will respond with a status code `404 Not Found` and an error message in the response body
+
+    ```json
+    {
+      "status": 404,
+      "timestamp": "2024-05-17T23:00:03-03:00",
+      "type": "https://hopefood.com.br/product-not-found",
+      "title": "Product not found",
+      "detail": "Product not found with ID: 2"
+    }
+    ```
+
