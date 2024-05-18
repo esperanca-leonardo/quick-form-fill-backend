@@ -66,10 +66,24 @@ Depending on your operating system, follow the commands below to start the appli
 Below are examples of how to use the Quick Form Fill Backend API endpoints in different scenarios. These examples can help you understand how to interact with the API effectively.
 
 - ### 🆕 Create a Product
-  To create a new product, send a POST request to the `/products` endpoint with the product details in the request body. The request body should be in JSON format as shown below:
+  To create a new product, send a POST request to the `/products` endpoint with the product details in the request body. The request body should be in JSON format as shown below
 
   ```json
   {
+    "name": "Wireless Mouse",
+    "description": "A high-precision wireless mouse",
+    "category": "Electronics",
+    "price": 29.99,
+    "amount": 150,
+    "supplier": "TechSupplier Co.",
+    "brand": "TechBrand"
+  }
+  ```
+
+  If the product is created successfully, the API will respond with a status code `201 Created` and the details of the newly created product in the response body
+  ```json
+  {
+    "id": 1,
     "name": "Wireless Mouse",
     "description": "A high-precision wireless mouse",
     "category": "Electronics",
