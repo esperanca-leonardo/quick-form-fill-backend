@@ -12,6 +12,7 @@ Quick Form Fill Backend is a simple API developed using Spring Boot, designed to
   - [Run the Application](#3-run-the-application)
     - [For Windows](#for-windows)
     - [For Linux and macOS](#for-windows)
+- [Insomnia Requests](#-insomnia-requests)
 - [Usage Examples](#-usage-examples)
   - [Create a Product](#-create-a-product)
   - [Retrieve a Product by ID](#-retrieve-a-product-by-id)
@@ -67,6 +68,17 @@ Depending on your operating system, follow the commands below to start the appli
   ```bash
   ./mvnw spring-boot:run
   ```
+
+## 📂 Insomnia Requests
+For greater convenience, an Insomnia file containing all the API requests has been created. This allows you to easily test the endpoints without having to manually configure each request. The file is named `InsomniaRequests.json` and is located in the root of the project.
+
+To use this file, follow these steps
+1. Open Insomnia.
+2. Go to `Application` > `Preferences` > `Data` tab.
+3. Click on `Import Data` and select `From File`.
+4. Choose the `InsomniaRequests.json` file from the root of the project.
+5. The requests will be imported and ready to use.
+
 
 ## 📚 Usage Examples
 
