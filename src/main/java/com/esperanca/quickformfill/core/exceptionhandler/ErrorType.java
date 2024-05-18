@@ -12,7 +12,7 @@ public enum ErrorType {
 	private final String path;
 
 	ErrorType(String path, String title) {
-		this.path = "https://hopefood.com.br" + path;
+		this.path = "https://quickformmfill.com.br" + path;
 		this.title = title;
 	}
 }
