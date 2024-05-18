@@ -4,25 +4,32 @@ Quick Form Fill Backend is a simple API developed using Spring Boot, designed to
 
 ## 📑 Table of Contents
 - [Key Features](#-key-features)
-- [Technical Details](#-technical-details)
+- [Technical Details](#%EF%B8%8F-technical-details)
+- [Prerequisites](#-prerequisites)
+- [Installation Instructions](#-installation-instructions)
+  - [Clone the Repository](#1-clone-the-repository)
+  - [Navigate to the Project Directory](#2-navigate-to-the-project-directory)
+  - [Run the Application](#3-run-the-application)
+    - [For Windows](#for-windows)
+    - [For Linux and macOS](#for-windows)
 
 ## 🚀 Key Features
 - 🆕 **Create Products:** Add new products with information such as name, price, and description.
-- 📄 **Read Products:** Retrieve a list of all products or get details of a specific product by its ID.
+- 🔍 **Read Products:** Retrieve a list of all products or get details of a specific product by its ID.
 - ✏️ **Update Products:** Modify existing product information to keep your data up-to-date.
 - 🗑️ **Delete Products:** Remove products that are no longer needed.
 
-## 📝 Technical Details
-- 🛠️ **Technology:** Built with Spring Boot, taking advantage of its features for quick and efficient development.
+## ⚙️ Technical Details
+- 🧑‍💻 **Technology:** Built with Spring Boot, taking advantage of its features for quick and efficient development.
 - 🌐 **Architecture:** REST API, ensuring straightforward handling of HTTP requests and responses.
 
-## 🛠️ Prerequisites
+## 🔧 Prerequisites
 - Ensure Java 17 or higher is installed
   
   ```bash
   java --version
   ```
-## ▶️ Running the Application
+## 📝 Installation Instructions
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/esperanca-leonardo/quick-form-fill-backend.git
