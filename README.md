@@ -69,7 +69,8 @@ Depending on your operating system, follow the commands below to start the appli
   ```
 
 ## 📚 Usage Examples
-Below are examples of how to use the Quick Form Fill Backend API endpoints in different scenarios. These examples can help you understand how to interact with the API effectively.
+
+Below are examples of how to use the Quick Form Fill Backend API endpoints in different scenarios. These examples can help you understand how to interact with the API effectively. By default, the application will run on `localhost:8080`.
 
 - ### 🆕 Create a Product
   - To create a new product, send a `POST` request to the `/products` endpoint with the product details in the request body. The request body should be in JSON format as shown below
