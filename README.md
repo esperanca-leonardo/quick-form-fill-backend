@@ -30,12 +30,12 @@ Quick Form Fill Backend is a simple API developed using Spring Boot, designed to
 - 🧑‍💻 **Technology:** Built with Spring Boot, taking advantage of its features for quick and efficient development.
 - 🌐 **Architecture:** REST API, ensuring straightforward handling of HTTP requests and responses.
 
-## 🔧 Prerequisites
-- Ensure Java 17 or higher is installed
+## 📋 Prerequisites
+Before running the application, ensure you have the following prerequisites installed:
+
+- [**git:**](https://git-scm.com/) Widely-used distributed version control system.
+- [**java 17:**](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html) A stable version of the Java Development Kit (JDK).
   
-  ```bash
-  java --version
-  ```
 ## 📝 Installation Instructions
 ### 1. Clone the Repository
 ```bash
