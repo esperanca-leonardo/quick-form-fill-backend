@@ -4,7 +4,7 @@ Quick Form Fill Backend is a simple API developed using Spring Boot, designed to
 
 ## 📑 Table of Contents
 - [Key Features](#-key-features)
-- [Technical Details](#%EF%B8%8F-technical-details)
+- [Tools and Technologies Used](#-tools-and-technologies-used)
 - [Prerequisites](#-prerequisites)
 - [Installation Instructions](#-installation-instructions)
   - [Clone the Repository](#1-clone-the-repository)
@@ -26,9 +26,16 @@ Quick Form Fill Backend is a simple API developed using Spring Boot, designed to
 - ✏️ **Update Products:** Modify existing product information to keep your data up-to-date.
 - 🗑️ **Delete Products:** Remove products that are no longer needed.
 
-## ⚙️ Technical Details
-- 🧑‍💻 **Technology:** Built with Spring Boot, taking advantage of its features for quick and efficient development.
-- 🌐 **Architecture:** REST API, ensuring straightforward handling of HTTP requests and responses.
+## 🔧 Tools and Technologies Used
+- [**Aspect:**](https://docs.spring.io/spring-framework/reference/core/aop.html) Implements cross-cutting concerns.
+- [**H2 Database:**](https://www.h2database.com/html/main.html) Embedded SQL database.
+- [**Java:**](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html) General-purpose programming language.
+- [**Lombok:**](https://projectlombok.org/) Reduces code verbosity.
+- [**ModelMapper:**](https://modelmapper.org/) Facilitates object mapping.
+- [**Reflection:**](https://www.oracle.com/technical-resources/articles/java/javareflection.html) Allows examining and modifying classes at runtime.
+- [**Spring Boot Starter Data JPA:**](https://spring.io/projects/spring-data-jpa) Facilitates database access.
+- [**Spring Boot Starter Test:**](https://docs.spring.io/spring-boot/docs/2.1.13.RELEASE/reference/html/boot-features-testing.html) Support for automated testing.
+- [**Spring Boot Starter Web:**](https://docs.spring.io/spring-boot/docs/current/reference/html/web.html) Facilitates web application development.
 
 ## 📋 Prerequisites
 Before running the application, ensure you have the following prerequisites installed:
